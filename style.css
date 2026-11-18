@@ -21,5 +21,49 @@ header {
     position: relative;
     z-index: 1;
     margin-top: 30px;
-    background: transparent;
+    transition: all 0.3s ease;
+    
+}
+
+header:hover {
+    transform: translateY(-5px) ;
+    text-shadow: 0 5px 15px rgba(255,255, 255, 0.5);
+}
+
+.start-btn{
+    padding:14px 35px;
+    background: #024c58;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size:30px;
+    font-weight: 500;
+    font-family: 'Fredoka', sans-serif;
+    transition: all 0.3s ease;
+    display:block;
+    margin: -20px auto 0 ;
+}
+.start-btn:hover{
+    transform:translateY(-8px) scale(1.08);
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.hedgehog {
+    width:200px;
+    height:auto;
+    object-fit: contain;
+    position: absolute;
+    top:55%;
+    left:17%;
+    bottom:auto;
+    right:auto;
+    animation: hedgehogFloat 3s ease-in-out infinite;
+    z-index: 1;
+}
+@keyframes hedgehogFloat {
+    0% ,100%{
+         transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+    
 }
