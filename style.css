@@ -1,0 +1,25 @@
+body {
+    background: 
+    linear-gradient(rgba(152, 151, 224, 0.4),rgba(151, 217, 248, 0.4)),
+    url(https://img.magnific.com/premium-vector/money-business-doodle-seamless-pattern-background-bank-profit-money-economy-finance-doodle-sketch-style-pattern-with-coin-megaphone-calculator-element_253081-1620.jpg?semt=ais_hybrid&w=740&q=80);
+    
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position : center;
+    background-attachment: fixed;
+    
+
+}
+header {
+    
+    padding: 20px;
+    text-align: center;
+    font-size: 59px;
+    font-weight: bold;
+    color: #1b0c52;
+    font-family: 'Fredoka', sans-serif;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    background: transparent;
+}
