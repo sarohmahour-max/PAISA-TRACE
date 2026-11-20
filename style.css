@@ -31,14 +31,14 @@ header:hover {
 }
 
 .start-btn{
-    padding:14px 35px;
+    padding: 15px 40px;
     background: #024c58;
     border-radius: 25px;
     color: white;
     border: none;
     cursor: pointer;
     font-size:30px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Fredoka', sans-serif;
     transition: all 0.3s ease;
     display:block;
@@ -67,3 +67,39 @@ header:hover {
     50% { transform: translateY(-12px); }
     
 }
+.hedgehog_laptop {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 5%;
+    left: auto;
+    bottom: auto;
+    right: 5% ;
+    animation: hedgehogFloat 3s ease-in-out infinite;
+    z-index: 1;
+}   
+.saving-coins {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: 20%;
+    right: 5% ;
+    animation: hedgehogFloat 3s ease-in-out infinite;
+    z-index: 1;
+}   
+.bar_chart {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    bottom: auto;
+    right: auto ;
+    animation: hedgehogFloat 3s ease-in-out infinite;
+    z-index: 1;
+}     
